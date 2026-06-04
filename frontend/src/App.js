@@ -13,7 +13,7 @@ import { Footer } from "./components/Footer";
 
 const Home = () => {
   return (
-    <main data-testid="home-page" className="bg-[#050505] text-white">
+    <main data-testid="home-page" className="bg-[#050505] text-white overflow-x-hidden">
       <Navbar />
       <Hero />
       <TrustStrip />
