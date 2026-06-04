@@ -1,0 +1,101 @@
+{
+  "project_name": "ElektroWatt",
+  "domain": "Electrical Installations Firm",
+  "theme_and_archetype": {
+    "theme": "DARK",
+    "archetype": "Archetype 4 (Swiss & High-Contrast) + Archetype 7 (Electric & Neon) Hybrid",
+    "description": "A high-contrast, modern dark theme representing electricity and technical precision. Deep obsidian backgrounds paired with striking electric yellow and cyan accents to create a professional yet bold impression."
+  },
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "Manrope",
+    "rules": {
+      "h1": "text-5xl sm:text-6xl+ font-black tracking-tighter uppercase",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight",
+      "h3": "text-xl sm:text-2xl font-semibold tracking-tight",
+      "body": "text-base md:text-lg leading-relaxed text-zinc-300",
+      "overline": "text-xs md:text-sm uppercase tracking-[0.2em] font-bold text-yellow-500"
+    }
+  },
+  "colors": {
+    "background_base": "#050505",
+    "background_surface": "#121212",
+    "background_glass": "bg-black/60 backdrop-blur-xl",
+    "primary_accent": "#FACC15",
+    "secondary_accent": "#06B6D4",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A1A1AA",
+    "border_subtle": "#27272A",
+    "border_glow": "border-yellow-500/50"
+  },
+  "layout_and_spacing": {
+    "general": "Generous spacing. Use py-24 to py-32 for sections. Asymmetric bento grids for services and gallery.",
+    "border_radius": "Sharp edges (rounded-none) or very subtle (rounded-sm) to maintain a technical, engineered feel.",
+    "cards": "Use 'Grid Borders' style. 1px borders with subtle hover glows. Avoid heavy soft drop shadows; use sharp inset borders or glowing drop-shadows on hover."
+  },
+  "components_strategy": {
+    "header": "Sticky top navigation. Crystal Glassmorphism (bg-black/60 backdrop-blur-xl border-b border-white/10). Include Logo, 4 links (Usluge, Projekti, O nama, Česta pitanja), and CTA button.",
+    "hero": "High impact. Left aligned massive typography. Background image with heavy dark overlay (bg-black/70 or gradient) so text pops. CTA button should have a neon electric yellow hover effect.",
+    "services": "Bento Grid layout. 5 services. Cards must have a technical border and a subtle cyan or yellow line on hover.",
+    "gallery": "Asymmetrical grid or masonry showing actual work. Hover effects to reveal project name/type.",
+    "faq": "Shadcn Accordion customized with sharp borders, dark backgrounds, and bright yellow icons for open/close state.",
+    "contact": "Large, commanding footer/contact section. NO FORM. Display massive 'MAILTO' link button. Phone number and address in large typography.",
+    "buttons": "Primary CTA: bg-yellow-400 text-black font-bold hover:bg-yellow-300 transition-all. Secondary CTA: border border-yellow-400 text-yellow-400 hover:bg-yellow-400/10."
+  },
+  "language_and_content": {
+    "language": "Croatian",
+    "services_list": [
+      "Stambene instalacije",
+      "Komercijalni i industrijski radovi",
+      "Pametne kuće",
+      "Solarni sustavi i EV punjači",
+      "Hitne intervencije 0-24h"
+    ]
+  },
+  "motion_and_interactions": {
+    "hover_states": "All buttons/cards must have clear hover states (color shift + slight transform). Use border color transitions to electric blue/yellow.",
+    "scroll_animations": "Fade in and slide up for sections using framer-motion. Keep it professional, not overly bouncy."
+  },
+  "media_urls": {
+    "hero_bg": {
+      "url": "https://images.pexels.com/photos/32588554/pexels-photo-32588554.jpeg",
+      "description": "Senior electrician working on a panel. Apply heavy dark gradient overlay."
+    },
+    "gallery": [
+      {
+        "url": "https://images.pexels.com/photos/34054464/pexels-photo-34054464.jpeg",
+        "description": "Industrial electrical panel work"
+      },
+      {
+        "url": "https://images.pexels.com/photos/16423104/pexels-photo-16423104.jpeg",
+        "description": "Smart home touch screen panel"
+      },
+      {
+        "url": "https://images.pexels.com/photos/9875418/pexels-photo-9875418.jpeg",
+        "description": "Solar panel installation on a roof"
+      },
+      {
+        "url": "https://images.pexels.com/photos/14319099/pexels-photo-14319099.jpeg",
+        "description": "Electrician testing industrial panel with multimeter"
+      },
+      {
+        "url": "https://images.pexels.com/photos/24376862/pexels-photo-24376862.jpeg",
+        "description": "White electric car charging"
+      }
+    ],
+    "about_image": {
+       "url": "https://images.pexels.com/photos/33531820/pexels-photo-33531820.jpeg",
+       "description": "Technician repairing outdoor electrical equipment"
+    }
+  },
+  "icons_library": "lucide-react",
+  "instructions_to_main_agent": [
+    "Write all user-facing text in Croatian as requested.",
+    "Do NOT build a contact form. Only use a mailto: link for the primary contact action.",
+    "Build a single-page structure with smooth scrolling to section IDs.",
+    "Strictly follow the dark theme and the electric yellow/cyan accents for visual pop.",
+    "Ensure all text is highly readable (APCA contrast) against the dark background.",
+    "Use framer-motion for simple scroll reveal animations.",
+    "Apply `data-testid` to all interactive elements."
+  ]
+}
