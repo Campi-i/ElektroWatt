@@ -4,18 +4,20 @@ import {
   Smartphone,
   SunMedium,
   Zap,
+  Truck,
 } from "lucide-react";
+
 
 export const COMPANY = {
   name: "ElektroWatt",
   tagline: "Elektroinstalacije s preciznošću inženjera.",
   description:
     "Već više od dvadeset godina projektiramo, ugrađujemo i servisiramo elektroinstalacije za domove, poslovne prostore i industriju diljem Hrvatske.",
-  phone: "+385 91 234 5678",
+  phone: "+385 98 926 1082",
   email: "info@elektrowatt.hr",
-  address: "Industrijska 14, 10000 Zagreb",
-  hours: "Pon – Pet, 08:00 – 18:00 · Hitne intervencije 0-24h",
-  oib: "OIB: 12345678901",
+  address: "Ante Starčevića 34, 32253 Komletinci",
+  hours: "Pon – Pet, 08:00 – 18:00",
+  oib: "OIB: 55045213024",
 };
 
 export const NAV_LINKS = [
@@ -76,6 +78,20 @@ export const SERVICES = [
     ],
   },
   {
+    id: "autokosara",
+    number: "05",
+    title: "Najam autokošare",
+    icon: Truck,
+    description:
+      "Iznajmljujemo autokošaru s iskusnim operaterom za radove na visini — montaža rasvjete, krošnjenje, fasaderski i elektroinstalacijski radovi do 22 m.",
+    bullets: [
+      "Radni doseg do 14 m",
+      "Iskusan operater",
+      "Najam po satu ili danu",
+    ],
+  },
+  
+  /*{
     id: "hitne",
     number: "05",
     title: "Hitne intervencije 0-24h",
@@ -83,7 +99,7 @@ export const SERVICES = [
     description:
       "Dolazimo brzo. Tim dežurnih elektroinstalatera dostupan je 24 sata dnevno, 7 dana u tjednu — za kvarove, prekide i opasne situacije.",
     bullets: ["Dolazak u 60 minuta", "Dežurni tim 24/7", "Garantirani odziv"],
-  },
+  },*/
 ];
 
 export const GALLERY = [
@@ -128,8 +144,8 @@ export const STATS = [
 
 export const FAQS = [
   {
-    q: "Pokrivate li cijelu Hrvatsku ili samo Zagreb?",
-    a: "Sjedište nam je u Zagrebu, a redovito radimo u cijeloj kontinentalnoj Hrvatskoj. Za veće projekte dolazimo i na Jadran — javite nam lokaciju i izlazimo na uvid.",
+    q: "Pokrivate li cijelu Hrvatsku?",
+    a: "Sjedište nam je u Vukovarsko-srijemskoj županiji, a redovito radimo u cijeloj kontinentalnoj Hrvatskoj. Za veće projekte dolazimo i na Jadran — javite nam lokaciju i izlazimo na uvid.",
   },
   {
     q: "Izdajete li atest i potrebnu dokumentaciju?",
@@ -137,7 +153,7 @@ export const FAQS = [
   },
   {
     q: "Koliko traje izrada ponude?",
-    a: "Nakon izlaska na teren ili dobivenog projekta, ponudu šaljemo u roku od 24–48 sati. Za hitne intervencije ponuda se dogovara odmah na licu mjesta.",
+    a: "Nakon izlaska na teren ili dobivenog projekta, ponudu šaljemo u roku od 24–48 sati.",
   },
   {
     q: "Radite li fotonaponske elektrane na ključ?",

@@ -22,7 +22,7 @@ export const Services = () => {
               data-testid="services-title"
               className="font-display text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight uppercase leading-[0.95]"
             >
-              Pet područja u kojima
+              Područja u kojima
               <br />
               <span className="text-yellow-400">znamo svaku žicu.</span>
             </h2>

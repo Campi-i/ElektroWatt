@@ -37,7 +37,7 @@ export const Contact = () => {
 
         <p className="mt-10 max-w-2xl text-lg text-zinc-300 leading-relaxed">
           Pošaljite kratak opis radova, lokaciju i okvirni rok. Odgovaramo u
-          roku 24 sata radnim danom — a za hitne intervencije zovite odmah.
+          roku 24 sata radnim danom.
         </p>
 
         <div className="mt-14 grid lg:grid-cols-12 gap-10 lg:gap-14 items-start">
@@ -106,8 +106,7 @@ export const Contact = () => {
                 Područje rada
               </span>
               <p className="mt-3 text-base text-zinc-300 leading-relaxed">
-                Zagreb · Velika Gorica · Samobor · Zaprešić · Sesvete ·
-                Karlovac · cijela kontinentalna Hrvatska
+                Vukovarsko-srijemska županija i cijela kontinentalna Hrvatska.
               </p>
             </div>
           </div>
